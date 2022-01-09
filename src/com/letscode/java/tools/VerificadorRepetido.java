@@ -1,16 +1,16 @@
-package com.letscode.java;
+package com.letscode.java.tools;
 
-public class Verificador {
+public class VerificadorRepetido {
 
-    public String[][] historicoPlayer = new String[3][3];
-    public String[][] historicoPc = new String[3][3];
+    public String[][] historicoPlayer = new String[5][5];
+    public String[][] historicoPc = new String[5][5];
 
     public void setHistoricoPlayer(int um, int dois) {
-        this.historicoPlayer[um][dois] = "X";
+        this.historicoPlayer[um][dois] = "T";
     }
 
     public void setHistoricoPc(int um, int dois) {
-        this.historicoPc[um][dois] = "X";
+        this.historicoPc[um][dois] = "T";
 
     }
 
